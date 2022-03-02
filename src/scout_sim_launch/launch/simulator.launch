@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+    <!--roslaunch rosbridge_server rosbridge_websocket.launch-->
+    <include file="$(find scout_tf)/launch/static_tf.launch"/>
+    <!--roslaunch scout_tf static_tf.launch-->
+</launch>
