@@ -1,4 +1,8 @@
 <launch>
+    <!--/rosbridge_websocket/port-->
+
+    <param name= "/rosbridge_websocket/port" value = "8080" />
+
     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
     <!--roslaunch rosbridge_server rosbridge_websocket.launch-->
     <include file="$(find scout_tf)/launch/static_tf.launch"/>

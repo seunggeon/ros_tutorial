@@ -1,0 +1,10 @@
+<launch>
+    <!--/rosbridge_websocket/port-->
+    <!--rosrun scout_sim_launch twist_pub.py-->
+    <param name ="/turtlesim/background_b" value="50"/>
+
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="log"/>
+        <param name ="background_b" value="50"/>
+        <remap from = "cmd_vel" to "turtle1/cmd/vel"/>
+    </node>
+</launch>
