@@ -43,9 +43,6 @@ class topic_publisher() :
                 tmp_data.z = 0
 
                 publishing_data.polygon.points.append(tmp_data)
-        rospy.loginfo(publishing_data.polygon.points[0])
-        rospy.loginfo(publishing_data.polygon.points[1])
-        rospy.loginfo(publishing_data.polygon.points[2])
         self.publisher1.publish(publishing_data)
 
 
