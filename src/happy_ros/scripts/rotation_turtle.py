@@ -17,7 +17,7 @@ def callback(data):
 		vel_pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
 		vel_ref = Twist()
 
-		vel_ref.angular.z = 2
+		vel_ref.angular.z = rospy.get_param("~angular_speed",1.0)
 		rospy.loginfo(vel_ref)
 		vel_pub.publish(vel_ref)
 			
