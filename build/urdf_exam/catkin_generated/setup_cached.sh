@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/kw-cobot/catkin_ws/devel/.private/urdf_exam:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/kw-cobot/catkin_ws/devel/.private/urdf_exam/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/kw-cobot/catkin_ws/devel/.private/urdf_exam/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/kw-cobot/catkin_ws/build/urdf_exam'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kw-cobot/catkin_ws/devel/.private/urdf_exam/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/kw-cobot/catkin_ws/src/urdf_exam:$ROS_PACKAGE_PATH"

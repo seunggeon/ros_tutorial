@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/kw-cobot/catkin_ws/devel/.private/scout_tf:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/kw-cobot/catkin_ws/devel/.private/scout_tf/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/kw-cobot/catkin_ws/devel/.private/scout_tf/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/kw-cobot/catkin_ws/build/scout_tf'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kw-cobot/catkin_ws/devel/.private/scout_tf/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/kw-cobot/catkin_ws/src/scout_tf:$ROS_PACKAGE_PATH"

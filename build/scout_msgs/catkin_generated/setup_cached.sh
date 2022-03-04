@@ -8,6 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/kw-cobot/catkin_ws/devel/.private/scout_msgs:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/kw-cobot/catkin_ws/devel/.private/scout_msgs/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/kw-cobot/catkin_ws/devel/.private/scout_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/kw-cobot/catkin_ws/build/scout_msgs'
+export PYTHONPATH="/home/kw-cobot/catkin_ws/devel/.private/scout_msgs/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kw-cobot/catkin_ws/devel/.private/scout_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/kw-cobot/catkin_ws/src/scout_msgs/scout_msgs:$ROS_PACKAGE_PATH"
