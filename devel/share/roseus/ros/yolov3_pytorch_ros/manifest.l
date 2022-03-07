@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/yolov3_pytorch_ros/share/roseus/ros/yolov3_pytorch_ros/manifest.l
