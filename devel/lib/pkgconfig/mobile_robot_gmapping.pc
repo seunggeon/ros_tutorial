@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/mobile_robot_gmapping/lib/pkgconfig/mobile_robot_gmapping.pc
