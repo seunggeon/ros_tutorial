@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import imp
 from visualization_msgs.msg import Marker
 from visualization_msgs.msg import MarkerArray
 import rospy
