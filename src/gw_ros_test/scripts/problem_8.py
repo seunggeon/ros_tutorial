@@ -12,7 +12,6 @@ class cur_pose() :
     def __init__(self) :
         self.x = 0
         self.y = 0
-        self.time = None
 
 
 def turtle_pos():
@@ -23,7 +22,7 @@ def turtle_pos():
         sub_callback
     )
     
-    rospy.Timer(rospy.Duration(1.0 / 10.0), pub_callback)
+    rospy.Timer(rospy.Duration(1.0 / 0.5), pub_callback)
 
     rospy.spin()
 
@@ -32,9 +31,8 @@ def pub_callback(data):
 
     vel_pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10) 
     
-    t1 = rospy.Time.now().to_sec()
-    velocity_x = (poseInfo.x) / (t1 - poseInfo.time)
-    velocity_y = (poseInfo.y) / (t1 - poseInfo.time)
+    velocity_x = (poseInfo.x) / 2
+    velocity_y = (poseInfo.y) / 2
     
 
     vel_ref = Twist()
@@ -53,7 +51,6 @@ def sub_callback(data) :
     
     poseInfo.x = input_x - data.x
     poseInfo.y = input_y - data.y
-    poseInfo.time = rospy.Time.now().to_sec()
 
 
 if __name__ == '__main__':

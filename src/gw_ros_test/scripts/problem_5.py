@@ -13,9 +13,9 @@ class SimpleSubNode() :
     def callback(self, _msg) :
 
         self._msg =_msg
-        print(self._msg)
+       # print(self._msg)
         
-        print(f'(x,y,theta) = ({_msg.x},{_msg.y},{_msg.theta})')
+        print('(x,y,theta) =', _msg.x, _msg.y, _msg.theta)
  
 
 def run(): 
