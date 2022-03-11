@@ -4,7 +4,6 @@
 import rospy
 from sensor_msgs.msg import CompressedImage
 from cv_bridge import CvBridge
-
 import cv2
 import numpy as np
 
@@ -43,23 +42,29 @@ class ImageSubscriber(object):
 
 		hsv = cv2.cvtColor(self.frame, cv2.COLOR_BGR2HSV)
 
-		lower_blue = np.array([110,50,50])
-		upper_blue = np.array([130,255,255])
+		lower_yellow = np.array([0,128,0])
+		upper_yellow = np.array([100,255,100])
+
+		lower_red = np.array([0,0,128])
+		upper_red = np.array([100,100,255])
 
 		#lower_white, higher_white --> 흰색 차선만 남게 (HSV) cv2.inRange(hsv, lower_white, higher_white)
 		#lower_yellow, higher_yellow --> 노란색 차선만 남게(RGB)cv2.inRange(self.frame, lower_frame)
 
-		mask = cv2.inRange(hsv,lower_blue,upper_blue)
+		mask = cv2.inRange(hsv,lower_yellow, upper_yellow)
+		mask1 = cv2.inRange(hsv,lower_red,upper_red)
 
-		cv2.imshow("maskedImage", mask)
+		cv2.imshow("maskedImage_yellow", mask)
+		cv2.imshow("maskedImage1_white", mask1)
 
 		cv2.imshow("image", self.frame)
 		cv2.waitKey(1)
 
-		cv2.imshow('hsv',hsv)
-		cv2.imshow('V',hsv[::1])
-		cv2.imshow('S',hsv)
-		cv2.imshow('H',hsv)
+		
+		# cv2.imshow('hsv',hsv)
+		# cv2.imshow('V',hsv[::1])
+		# cv2.imshow('S',hsv)
+		# cv2.imshow('H',hsv)
 
 
 	def nothing(self, x):
