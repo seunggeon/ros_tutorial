@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_navigation/share/omo_r1mini_navigation/cmake/omo_r1mini_navigationConfig-version.cmake

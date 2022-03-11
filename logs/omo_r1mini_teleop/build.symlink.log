@@ -1,0 +1,4 @@
+Symlinking /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_teleop/cmake/omo_r1mini_teleopConfig-version.cmake
+Symlinking /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_teleop/cmake/omo_r1mini_teleopConfig.cmake
+Symlinking /home/kw-cobot/catkin_ws/devel/lib/python2.7/dist-packages/omo_r1mini_teleop/__init__.py
+Symlinking /home/kw-cobot/catkin_ws/devel/lib/pkgconfig/omo_r1mini_teleop.pc

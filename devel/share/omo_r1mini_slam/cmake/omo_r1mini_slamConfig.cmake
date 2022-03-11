@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_slam/share/omo_r1mini_slam/cmake/omo_r1mini_slamConfig.cmake

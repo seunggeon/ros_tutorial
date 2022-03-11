@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74bce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74bce.dir/build.make CMakeFiles/cmTC_74bce.dir/build
+make[1]: 디렉터리 '/home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_74bce.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74bce.dir/CheckSymbolExists.c.o   -c /home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_74bce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74bce.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_74bce.dir/CheckSymbolExists.c.o  -o cmTC_74bce 
+CMakeFiles/cmTC_74bce.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_74bce.dir/build.make:97: recipe for target 'cmTC_74bce' failed
+make[1]: *** [cmTC_74bce] Error 1
+make[1]: 디렉터리 '/home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_74bce/fast' failed
+make: *** [cmTC_74bce/fast] Error 2
+
+File /home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cffae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cffae.dir/build.make CMakeFiles/cmTC_cffae.dir/build
+make[1]: 디렉터리 '/home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_cffae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cffae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cffae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cffae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cffae.dir/CheckFunctionExists.c.o  -o cmTC_cffae -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cffae.dir/build.make:97: recipe for target 'cmTC_cffae' failed
+make[1]: *** [cmTC_cffae] Error 1
+make[1]: 디렉터리 '/home/kw-cobot/catkin_ws/build/omo_r1mini_navigation/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_cffae/fast' failed
+make: *** [cmTC_cffae/fast] Error 2
+
+

@@ -1,0 +1,5 @@
+omo_r1mini/omo_r1mini_ar_marker
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_ar_marker/cmake.lock /home/kw-cobot/catkin_ws/devel/./cmake.lock
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_ar_marker/share/omo_r1mini_ar_marker/cmake/omo_r1mini_ar_markerConfig.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_ar_marker/cmake/omo_r1mini_ar_markerConfig.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_ar_marker/share/omo_r1mini_ar_marker/cmake/omo_r1mini_ar_markerConfig-version.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_ar_marker/cmake/omo_r1mini_ar_markerConfig-version.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_ar_marker/lib/pkgconfig/omo_r1mini_ar_marker.pc /home/kw-cobot/catkin_ws/devel/lib/pkgconfig/omo_r1mini_ar_marker.pc

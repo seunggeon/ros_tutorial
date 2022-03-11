@@ -1,0 +1,8 @@
+prefix=/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_slam
+
+Name: omo_r1mini_slam
+Description: Description of omo_r1mini_slam
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

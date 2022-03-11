@@ -1,0 +1,2 @@
+set(omo_r1mini_bringup_MESSAGE_FILES "")
+set(omo_r1mini_bringup_SERVICE_FILES "/home/kw-cobot/catkin_ws/src/omo_r1mini/omo_r1mini_bringup/srv/Battery.srv;/home/kw-cobot/catkin_ws/src/omo_r1mini/omo_r1mini_bringup/srv/Color.srv;/home/kw-cobot/catkin_ws/src/omo_r1mini/omo_r1mini_bringup/srv/SaveColor.srv;/home/kw-cobot/catkin_ws/src/omo_r1mini/omo_r1mini_bringup/srv/ResetOdom.srv;/home/kw-cobot/catkin_ws/src/omo_r1mini/omo_r1mini_bringup/srv/Calg.srv")

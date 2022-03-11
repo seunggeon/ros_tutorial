@@ -1,0 +1,5 @@
+omo_r1mini/omo_r1mini_gazebo
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_gazebo/cmake.lock /home/kw-cobot/catkin_ws/devel/./cmake.lock
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig-version.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig-version.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_gazebo/lib/pkgconfig/omo_r1mini_gazebo.pc /home/kw-cobot/catkin_ws/devel/lib/pkgconfig/omo_r1mini_gazebo.pc

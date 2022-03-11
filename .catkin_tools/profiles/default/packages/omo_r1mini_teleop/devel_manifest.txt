@@ -1,0 +1,6 @@
+omo_r1mini/omo_r1mini_teleop
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_teleop/cmake.lock /home/kw-cobot/catkin_ws/devel/./cmake.lock
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_teleop/share/omo_r1mini_teleop/cmake/omo_r1mini_teleopConfig-version.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_teleop/cmake/omo_r1mini_teleopConfig-version.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_teleop/share/omo_r1mini_teleop/cmake/omo_r1mini_teleopConfig.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_teleop/cmake/omo_r1mini_teleopConfig.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_teleop/lib/python2.7/dist-packages/omo_r1mini_teleop/__init__.py /home/kw-cobot/catkin_ws/devel/lib/python2.7/dist-packages/omo_r1mini_teleop/__init__.py
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_teleop/lib/pkgconfig/omo_r1mini_teleop.pc /home/kw-cobot/catkin_ws/devel/lib/pkgconfig/omo_r1mini_teleop.pc

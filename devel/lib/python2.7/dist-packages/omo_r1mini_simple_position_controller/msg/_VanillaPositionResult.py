@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_simple_position_controller/lib/python2.7/dist-packages/omo_r1mini_simple_position_controller/msg/_VanillaPositionResult.py

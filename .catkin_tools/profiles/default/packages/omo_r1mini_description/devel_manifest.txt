@@ -1,0 +1,5 @@
+omo_r1mini/omo_r1mini_description
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_description/cmake.lock /home/kw-cobot/catkin_ws/devel/./cmake.lock
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_description/lib/pkgconfig/omo_r1mini_description.pc /home/kw-cobot/catkin_ws/devel/lib/pkgconfig/omo_r1mini_description.pc

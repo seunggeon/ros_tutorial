@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_teleop/share/omo_r1mini_teleop/cmake/omo_r1mini_teleopConfig-version.cmake

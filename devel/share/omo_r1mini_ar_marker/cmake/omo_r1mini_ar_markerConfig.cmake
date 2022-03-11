@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_ar_marker/share/omo_r1mini_ar_marker/cmake/omo_r1mini_ar_markerConfig.cmake

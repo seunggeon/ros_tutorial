@@ -1,0 +1,3 @@
+Symlinking /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_navigation/cmake/omo_r1mini_navigationConfig.cmake
+Symlinking /home/kw-cobot/catkin_ws/devel/share/omo_r1mini_navigation/cmake/omo_r1mini_navigationConfig-version.cmake
+Symlinking /home/kw-cobot/catkin_ws/devel/lib/pkgconfig/omo_r1mini_navigation.pc

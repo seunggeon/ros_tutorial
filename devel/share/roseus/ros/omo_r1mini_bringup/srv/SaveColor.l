@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/omo_r1mini_bringup/share/roseus/ros/omo_r1mini_bringup/srv/SaveColor.l
