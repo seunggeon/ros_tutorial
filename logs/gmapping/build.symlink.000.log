@@ -1,0 +1,6 @@
+Symlinking /home/kw-cobot/catkin_ws/devel/share/gmapping/cmake/gmappingConfig-version.cmake
+Symlinking /home/kw-cobot/catkin_ws/devel/share/gmapping/cmake/gmappingConfig.cmake
+Symlinking /home/kw-cobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so
+Symlinking /home/kw-cobot/catkin_ws/devel/lib/gmapping/slam_gmapping
+Symlinking /home/kw-cobot/catkin_ws/devel/lib/gmapping/slam_gmapping_replay
+Symlinking /home/kw-cobot/catkin_ws/devel/lib/pkgconfig/gmapping.pc
