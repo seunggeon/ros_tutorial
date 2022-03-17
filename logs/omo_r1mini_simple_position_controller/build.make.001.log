@@ -1,0 +1,23 @@
+[  0%] Built target _omo_r1mini_simple_position_controller_generate_messages_check_deps_VanillaPositionActionResult
+[  0%] Built target _omo_r1mini_simple_position_controller_generate_messages_check_deps_VanillaPositionAction
+[  0%] Built target _omo_r1mini_simple_position_controller_generate_messages_check_deps_VanillaPositionActionFeedback
+[  0%] Built target _omo_r1mini_simple_position_controller_generate_messages_check_deps_VanillaPositionResult
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _omo_r1mini_simple_position_controller_generate_messages_check_deps_VanillaPositionActionGoal
+[  0%] Built target _omo_r1mini_simple_position_controller_generate_messages_check_deps_VanillaPositionFeedback
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _omo_r1mini_simple_position_controller_generate_messages_check_deps_VanillaPositionGoal
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 18%] Built target omo_r1mini_simple_position_controller_generate_messages_lisp
+[ 40%] Built target omo_r1mini_simple_position_controller_generate_messages_py
+[ 59%] Built target omo_r1mini_simple_position_controller_generate_messages_nodejs
+[ 78%] Built target omo_r1mini_simple_position_controller_generate_messages_cpp
+[100%] Built target omo_r1mini_simple_position_controller_generate_messages_eus
+[100%] Built target omo_r1mini_simple_position_controller_generate_messages

@@ -145,6 +145,20 @@
         <origin xyz="0 0.07 0.03" rpy="0 0 0"/>
     </joint>
 
+    <link name="ar_camera_link_tmp" />
+    <joint name="ar_camera_fixed_joint_tmp"  type="fixed">
+        <parent link="camera_link"/>
+        <child link="ar_camera_link_tmp"/>
+        <origin xyz="0 0 0" rpy="0 1.57 0"/>
+    </joint>
+
+    <link name="ar_camera_link"/>
+    <joint name="ar_camera_fixed_joint" type="fixed">
+        <parent link="ar_camera_link_tmp"/>
+        <child link="ar_camera_link"/>
+        <origin xyz="0 0 0" rpy="0 0 -1.57"/>
+    </joint>
+
     <gazebo reference="camera_link">
         <sensor type="camera" name="camera1">
             <update_rate>15.0</update_rate>

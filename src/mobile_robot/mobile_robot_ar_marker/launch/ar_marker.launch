@@ -1,0 +1,30 @@
+<launch>
+  <arg name="marker_frame_id"     default="base_footprint"/>
+  <arg name="marker_size"         default="5.0"/>
+
+  <include file="$(find ar_track_alvar)/launch/pr2_indiv_no_kinect.launch">
+    <arg name="marker_size" value="$(arg marker_size)"/>
+    <arg name="max_new_marker_error" value="0.08"/>
+    <arg name="max_track_error" value="0.2"/>
+    <arg name="cam_image_topic" value="/usb_cam/image_raw"/>
+    <arg name="cam_info_topic" value="/usb_cam/camera_info"/>
+    <arg name="output_frame" value="$(arg marker_frame_id)"/> 
+  </include>
+
+  <include file="$(find mobile_robot_description)/launch/upload.launch"/>
+
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="camera_name" value="camera"/>
+    <param name="camera_info_url" value="package://mobile_robot_ar_marker/camera.yaml"/>
+    <param name="video_device" value="/dev/video0"/>
+    <param name="image_width" value="640"/>
+    <param name="image_height" value="480"/>
+    <param name="pixel_format" value="yuyv"/>
+    <param name="camera_frame_id" value="ar_camera_link"/>
+    <param name="io_method" value="mmap"/>
+  </node>
+
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mobile_robot_ar_marker)/rviz/ar_track.rviz"/>
+</launch>

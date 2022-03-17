@@ -1,0 +1,8 @@
+prefix=/home/kw-cobot/catkin_ws/devel/.private/mobile_robot_ar_marker
+
+Name: mobile_robot_ar_marker
+Description: Description of mobile_robot_ar_marker
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

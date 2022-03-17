@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/happy_mobile_robot/share/happy_mobile_robot/cmake/happy_mobile_robotConfig-version.cmake

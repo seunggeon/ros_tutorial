@@ -1,0 +1,8 @@
+prefix=/home/kw-cobot/catkin_ws/devel/.private/happy_mobile_robot
+
+Name: happy_mobile_robot
+Description: Description of happy_mobile_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

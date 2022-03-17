@@ -1,0 +1,16 @@
+[  0%] Built target _omo_r1mini_bringup_generate_messages_check_deps_SaveColor
+[  0%] Built target _omo_r1mini_bringup_generate_messages_check_deps_Calg
+[  0%] Built target _omo_r1mini_bringup_generate_messages_check_deps_Battery
+[  0%] Built target _omo_r1mini_bringup_generate_messages_check_deps_Color
+[  0%] Built target _omo_r1mini_bringup_generate_messages_check_deps_ResetOdom
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 22%] Built target omo_r1mini_bringup_generate_messages_eus
+[ 44%] Built target omo_r1mini_bringup_generate_messages_py
+[ 81%] Built target omo_r1mini_bringup_generate_messages_lisp
+[ 81%] Built target omo_r1mini_bringup_generate_messages_nodejs
+[100%] Built target omo_r1mini_bringup_generate_messages_cpp
+[100%] Built target omo_r1mini_bringup_generate_messages

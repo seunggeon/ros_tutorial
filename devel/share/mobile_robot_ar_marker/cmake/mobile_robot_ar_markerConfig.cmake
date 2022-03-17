@@ -1,0 +1,1 @@
+/home/kw-cobot/catkin_ws/devel/.private/mobile_robot_ar_marker/share/mobile_robot_ar_marker/cmake/mobile_robot_ar_markerConfig.cmake
