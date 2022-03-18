@@ -2,11 +2,19 @@
     <!-- /rosbridge_websocket/port = 9090 -->
 
     <!-- <param name="/rosbridge_websocket/port" value="8080" /> -->
-
+    
     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
     <!-- roslaunch rosbridge_server rosbridge_websocket.launch -->
-    <node type="static_transform_publisher" pkg="tf" name="base_link_to_laser" args="0.24 0 0.17 0 0 0 base_link velodyne 100"/>
-    <node type="static_transform_publisher" pkg="tf" name="base_link_to_camera" args="0.41 0 0.20 0 0 0 base_link Camera 100"/>
-    <node type="static_transform_publisher" pkg="tf" name="base_link_to_imu" args="0.14 0 0.15 0 0 0 base_link imu 100"/>
-    <!-- roslaunch scout_tf static_tf.launch -->
+    
+    <node type="static_transform_publisher" pkg="tf" name="base_link_to_laser" args="0.24 0 0.17 0 0 0 base_link velodyne 20"/>
+    <node type="static_transform_publisher" pkg="tf" name="base_link_to_camera" args="0.41 0 0.20 0 0 0 base_link Camera 20"/>
+    <node type="static_transform_publisher" pkg="tf" name="base_link_to_imu" args="0.14 0 0.15 0 0 0 base_link imu 20"/>
+    
+    <!-- roslaunch scout_tf static_tf.launch --> 
+
+
+    <!-- <include file="$(find scout_tf)/launch/static_tf.launch"/> -->
+
+   
+    
 </launch>
