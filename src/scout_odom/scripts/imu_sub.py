@@ -104,6 +104,22 @@ class imu_sub():
 	def Status_CB(self, data):
 		self.v = data.linear_velocity
 
+		state_trans = ScoutStatus
+		state_br = tf2_ros.TransformBroadcaster()
+
+		state_br.sendTransform(data)
+		state_trans.header.stamp = rospy.Time.now()
+		state_trans.header.frame_id = ""
+		state_trans.child_frame_id = "base_link"
+
+		state_trans.transform.translation.x = self.x
+		state_trans.transform.translation.y = self.y
+		state_trans.transform.translation.z = 0.0
+		state_trans.transform.rotation.x = qx
+		state_trans.transform.rotation.y = qy
+		state_trans.transform.rotation.z = qz
+		state_trans.transform.rotation.w = qw
+
 		self.status_current_time = rospy.Time.now().to_sec()
 		if abs(self.v) < 0.001:
 			self.v = 0
