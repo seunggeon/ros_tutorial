@@ -373,7 +373,7 @@ turtlebot3_bringup_BINARY_DIR:STATIC=/home/kw-cobot/catkin_ws/build/turtlebot3_b
 turtlebot3_bringup_SOURCE_DIR:STATIC=/home/kw-cobot/catkin_ws/src/turtlebot3/turtlebot3_bringup
 
 //The directory containing a CMake configuration file for turtlebot3_msgs.
-turtlebot3_msgs_DIR:PATH=turtlebot3_msgs_DIR-NOTFOUND
+turtlebot3_msgs_DIR:PATH=/opt/ros/melodic/share/turtlebot3_msgs/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
